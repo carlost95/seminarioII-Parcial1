@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Jugador } from './../../../../MaterialParcial1/interfaces/jugador.interface';
+import { Jugador } from '../../interfaces/jugador.interface';
 import { EQUIPO1 } from './../../data/equipo1.data';
 import { InformacionPage } from './../informacion/informacion';
 

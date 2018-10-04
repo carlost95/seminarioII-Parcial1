@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { InformacionPage } from '../informacion/informacion';
 import { Jugador } from './../../interfaces/jugador.interface';
-import { EQUIPO2 } from './../../../../MaterialParcial1/data/equipo2.data';
+import { EQUIPO2 } from './../..//data/equipo2.data';
 
 @IonicPage()
 @Component({
