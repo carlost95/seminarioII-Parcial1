@@ -1,0 +1,17 @@
+<ion-header>
+
+  <ion-navbar color="dark">
+
+    <ion-title text-center> {{jugador.nombre}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <img src="{{jugador.img}}" />
+  <h2>{{jugador.nombre}}</h2>
+  <p>{{jugador.titulo}}</p>
+  <button ion-button color="dark" (click)="regresar();" block>REGRESAR</button>
+
+</ion-content>

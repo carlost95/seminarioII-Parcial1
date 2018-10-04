@@ -1,0 +1,20 @@
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title>equipo1</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item *ngFor="let item of listaEquipo1">
+    <ion-avatar item-left>
+      <img [src]="item.img" (click)="informacionJugador(item);">
+      <h2>{{item.nombre}}</h2>
+      <p>{{item.titulo}}</p>
+    </ion-avatar>
+  </ion-item>
+
+
+</ion-content>
